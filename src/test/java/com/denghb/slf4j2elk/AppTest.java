@@ -17,7 +17,7 @@ public class AppTest {
     public static void main(String... args) throws IOException {
 
         long start = System.currentTimeMillis();
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 1; i++) {
             logger.error("error" + i, new Exception("abcdefg"));
             logger.trace("trace" + i);
             logger.debug("debug" + i);
